@@ -79,10 +79,19 @@ int main()
         printf("el resultado es %i\n", res);
         printf("\n\n");
         
-        while(op < 0 && op > 6);
+        printf("menu: \n"); 
+        printf("escoge una opcion: \n");
+        printf("suma = 1 \n");
+        printf("resta = 2 \n");
+        printf("mul. = 3 \n");
+        printf("división = 4 \n");
+        printf("raiz cuadrada=5 \n");
+        printf("potencia=6 \n");
+        printf("salida = 0 \n");
+        scanf("%i", &op);
         
-        return 0;
-    
     }
+    while (op != 0);
+    
 } 
     
